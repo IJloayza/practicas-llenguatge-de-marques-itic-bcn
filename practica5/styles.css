@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: darkgoldenrod;
+    font-size: 2vh;
+    color: aliceblue;
+    text-align: center;
+    margin: 0px;
+    height: 5vh;
+  
+}
+
+nav{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    position: sticky;
+    text-align: center;
+    height: 3vh;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px;
+}
+
+nav ul{
+    margin: 0px;
+}
+
+main{
+    margin: 15px;
+    padding: 10px
+}
+
+.main_section{
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer{
+   
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    text-align: center;
+}
