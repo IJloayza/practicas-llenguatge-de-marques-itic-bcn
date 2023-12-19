@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE gameria SYSTEM "Practica-6(P2).dtd">
+<!--Se han añadido valores a la referencia de historial de productos debido a que creemos que no puede existir el historial de un producto comprado sin referencia al producto.
+
+Se reemplazaron los guiones - por guiones bajos _ debido a problemas de sintaxis
+
+En el archivo DTD se ha decidido colocar un or | para lang (atributo de titulo en cards y games) para cumplir con la rúbrica-->
 <gameria>
   <clients>
     <client purchase_type="online">
