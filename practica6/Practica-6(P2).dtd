@@ -1,0 +1,25 @@
+<!ELEMENT gameria (clients*, products*)>
+<!ELEMENT clients (client+)>
+<!ELEMENT client (name, email, address, history)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT history (product_name+)>
+<!ELEMENT product_name (quantity)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT products (cards+, game)>
+<!ELEMENT cards (title, expansion, year, price, stock)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT expansion (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT game (title, expansion, year, price, stock)>
+<!ATTLIST client purchase_type CDATA #REQUIRED>
+<!ATTLIST email domain CDATA #REQUIRED>
+<!ATTLIST product_name href IDREF #REQUIRED>
+<!ATTLIST cards category CDATA #REQUIRED>
+<!ATTLIST cards id ID #REQUIRED>
+<!ATTLIST title lang (en | cat) #REQUIRED>
+<!ATTLIST game category CDATA #REQUIRED>
+<!ATTLIST game id ID #REQUIRED>
