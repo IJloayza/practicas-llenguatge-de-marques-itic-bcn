@@ -25,10 +25,12 @@
       }
     ],
     "imagen":"https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
-    "evolucions":{
+    "evolucions":[
+      {
       "id_evolucion":2,
       "nivel":16
-    }
+      }
+    ] 
   },
   {
     "id":2,
@@ -62,10 +64,12 @@
       }
     ],
     "imagen":"https://www.wikidex.net/wiki/Archivo:Ivysaur.png",
-    "evolucions":{
+    "evolucions":[
+      {
       "id_evolucion":3,
       "nivel":32
-    }
+      }
+    ]
   },
   {
     "id":3,
@@ -111,9 +115,6 @@
       }
     ],
     "imagen":"https://www.wikidex.net/wiki/Archivo:Venusaur.png",
-    "evolucions":{
-      "id_evolucion":null,
-      "nivel":null
-    }
+    "evolucions":[]
   }
 ]
