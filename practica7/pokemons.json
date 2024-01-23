@@ -9,12 +9,10 @@
     "pes":6.9,
     "altura":0.7,
     "estadistiques":{
-      "Velocidad":3,
-      "Fortaleza":3,
-      "Precision":4,
-      "Resistencia":4,
-      "Salto":3,
-      "Total":17
+      "velocidad":3,
+      "fortaleza":3,
+      "precision":4,
+      "resistencia":4
     },
     "moviments":[
       {
@@ -42,12 +40,10 @@
     "pes":13.0,
     "altura":1,
     "estadistiques":{
-      "Velocidad":2,
-      "Fortaleza":3,
-      "Precision":5,
-      "Resistencia":5,
-      "Salto":3,
-      "Total":18
+      "velocidad":2,
+      "fortaleza":3,
+      "precision":5,
+      "resistencia":5
     },
     "moviments":[
       {
@@ -81,12 +77,10 @@
     "pes":100,
     "altura":2,
     "estadistiques":{
-      "Velocidad":2,
-      "Fortaleza":5,
-      "Precision":3,
-      "Resistencia":5,
-      "Salto":2,
-      "Total":17
+      "velocidad":2,
+      "fortaleza":5,
+      "precision":3,
+      "resistencia":5
     },
     "moviments":[
       {
