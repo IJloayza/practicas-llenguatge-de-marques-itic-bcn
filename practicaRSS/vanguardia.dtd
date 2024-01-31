@@ -1,0 +1,41 @@
+<!ELEMENT rss (channel+)>
+<!ELEMENT channel (title, description, image*, link+, item+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT image (url, title, link, description)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT item (guid, title, description, pubDate, link, enclosure, category, modified, creator, encoded, content+)>
+<!ELEMENT guid (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT enclosure (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT modified (#PCDATA)>
+<!ELEMENT creator (#PCDATA)>
+<!ELEMENT encoded (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST link rel CDATA #REQUIRED>
+<!ATTLIST link type CDATA #REQUIRED>
+<!ATTLIST link href CDATA #REQUIRED>
+<!ATTLIST link prefix CDATA #REQUIRED>
+<!ATTLIST guid isPermaLink (true|false) #REQUIRED>
+<!ATTLIST guid text CDATA #REQUIRED>
+<!ATTLIST enclosure type CDATA #REQUIRED>
+<!ATTLIST enclosure length CDATA #REQUIRED>
+<!ATTLIST enclosure url CDATA #REQUIRED>
+<!ATTLIST modified prefix CDATA #REQUIRED>
+<!ATTLIST modified text CDATA #REQUIRED>
+<!ATTLIST creator prefix CDATA #REQUIRED>
+<!ATTLIST creator text CDATA #REQUIRED>
+<!ATTLIST encoded prefix CDATA #REQUIRED>
+<!ATTLIST encoded text CDATA #REQUIRED>
+<!ATTLIST content type CDATA #REQUIRED>
+<!ATTLIST content medium CDATA #REQUIRED>
+<!ATTLIST content url CDATA #REQUIRED>
+<!ATTLIST content prefix CDATA #REQUIRED>
